@@ -6,7 +6,7 @@
 - `src/common.py`：保存项目路径、广州范围、线路颜色和通用环境变量读取函数。
 - `src/fetch_gz_metro_lines_from_osm.py`：从OpenStreetMap Overpass接口抓取广州地铁线路和站点。
 - `src/fetch_aqicn_all_stations_bbox.py`：从AQICN接口抓取广州范围内的空气监测站。
-- `src/run_all.bat`：Windows下批量运行抓取脚本。
+- `启动网页.bat`：Windows下双击启动网页，会自动创建虚拟环境并安装依赖。
 - `data/raw/gz_metro_lines.geojson`：广州地铁线路数据。
 - `data/raw/gz_metro_stations.csv`：广州地铁站点数据。
 - `data/raw/aqicn_stations_bbox.csv`：广州及周边空气监测站数据。
