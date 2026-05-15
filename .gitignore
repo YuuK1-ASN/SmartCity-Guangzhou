@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+.env
+data/processed/
+CONTEXT.md
